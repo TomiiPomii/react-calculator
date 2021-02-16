@@ -6,6 +6,7 @@ export const Calculator: React.FC = () => {
   const [term, setTerm] = useState("");
 
   const getInput = (letter: string) => {
+    if (term.length == 13) return;
     const newTerm = term + letter;
     setTerm(newTerm);
   };
@@ -19,6 +20,7 @@ export const Calculator: React.FC = () => {
             onChange={(e) => setTerm(e.target.value)}
             className="term"
             type="text"
+            maxLength={3}
             readOnly={true}
           />
           <CalcButton display="/" sendInput={getInput} />
