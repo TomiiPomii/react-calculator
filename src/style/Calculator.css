@@ -1,0 +1,35 @@
+.outer {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.grid {
+    display: grid;
+    justify-content: center;
+    padding: 6px;
+    border: 10px solid;
+    border-radius: 8px;
+    background-color: #336633;
+}
+
+.row {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.row > * {
+    margin: 2px;
+}
+
+.term {
+    cursor: default;
+    width: 240px;
+    height: 40px;
+    font-size: 32px;
+    text-align: right;
+    border: none;
+    border-radius: 3px;
+    grid-column: span 3;
+    background-color: #ffa500;
+}

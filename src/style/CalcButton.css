@@ -1,0 +1,10 @@
+.CButton {
+    padding: 0px;
+    width: 80px;
+    height: 46px;
+    font-size: 32px;
+    color: #FFFFFF;
+    background-color: #000000;
+    border: none;
+    border-radius: 10px;
+}
