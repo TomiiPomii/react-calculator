@@ -1,0 +1,2 @@
+.outer{display:flex;margin-top:50px}.grid,.outer{justify-content:center}.grid{padding:6px;border:10px solid;border-radius:8px;background-color:#363}.grid,.row{display:grid}.row{grid-auto-flow:column}.row>*{margin:2px}.term{cursor:default;width:240px;height:40px;font-size:32px;text-align:right;border:none;border-radius:3px;grid-column:span 3;background-color:orange}.CButton{padding:0;width:80px;height:46px;font-size:32px;color:#fff;background-color:#000;border:none;border-radius:10px}
+/*# sourceMappingURL=main.98540078.chunk.css.map */
